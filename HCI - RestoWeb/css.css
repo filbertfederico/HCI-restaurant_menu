@@ -1,0 +1,46 @@
+body{
+    margin-top: -30px;
+}
+
+nav{
+    /* width: fit-content; */
+    background-color: rgba(0,0,0,0.8);
+    padding: 0.1rem;
+    position: fixed;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.nav_item{
+    display: inline-block;
+    padding: 3rem;
+    margin-left: 65px;
+    
+}
+
+.nav_font{
+    color: yellow;
+    text-decoration: none;
+    padding: 2rem;
+}
+
+.appetizer_section{
+    margin-top: 130px;
+    height: 800px;
+    background-color: red;
+}
+
+.pizza_section{
+    height: 800px;
+    background-color: orange;
+}
+
+.side_section{
+    height: 800px;
+    background-color: purple;
+}
+
+.drink_section{
+    height: 800px;
+    background-color: midnightblue;
+}
