@@ -1,5 +1,5 @@
-body{
-    margin-top: -30px;
+body {
+    width: 100%;
 }
 
 nav{
@@ -8,13 +8,13 @@ nav{
     position: fixed;
     width: 100%;
     border-radius: 10px;
+    margin-top: -30px
 }
 
 .nav_item{
     display: inline-block;
     padding: 3rem;
     margin-left: 65px;
-    
 }
 
 .nav_font{
@@ -24,13 +24,13 @@ nav{
 }
 
 .appetizer_section{
-    margin-top: 130px;
+    margin-top: 100px;
     height: 800px;
     background-color: red;
 }
 
 .pizza_section{
-    height: 800px;
+    height: 1400px;
     background-color: orange;
 }
 
@@ -44,13 +44,17 @@ nav{
     background-color: midnightblue;
 }
 
-.box {
+.image {
     float: left;
-    width: 50%;
-    padding: 50px;
+    width: 200px;
+    margin-left: 50px;
+    margin-bottom: 90px;
 }
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: inline-block;
+.text  {
+    float: right;   
+    width: 200px;
+    padding: 80px;
+    margin-left: 50px;
+    margin-bottom: 70px;
+    cursor: default;
 }
