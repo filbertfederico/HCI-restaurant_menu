@@ -2,6 +2,20 @@ body {
     width: 100%;
 }
 
+h2 {
+    margin-top: 150px;
+    text-align: center;
+    animation: change-color 4s infinite;
+}
+
+@keyframes change-color {
+    0%{color:rgb(66, 133, 244);}
+    24%{color:rgb(66, 133, 244);}
+    49%{color:rgb(219, 68, 55);}
+    74%{color:rgb(244, 180, 0)}
+    100%{color:rgb(15, 157, 88)}
+}
+
 nav{
     background-color: rgba(0,0,0,0.8);
     padding: 0.1rem;
@@ -24,18 +38,18 @@ nav{
 }
 
 .appetizer_section{
-    margin-top: 100px;
-    height: 1800px;
-    background-color: red;
+    margin-top: 80px;
+    height: 2000px;
+    background-color: rgba(202,17,0);
 }
 
 .pizza_section{
-    height: 1400px;
+    height: 1700px;
     background-color: orange;
 }
 
 .side_section{
-    height: 1900px;
+    height: 2400px;
     background-color: rgb(126, 87, 194);
 }
 
@@ -58,3 +72,4 @@ nav{
     margin-bottom: 70px;
     cursor: default;
 }
+
